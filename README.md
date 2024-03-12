@@ -9,6 +9,23 @@ This project is an implementation of the React documentation, providing an inter
 - **Winning Highlights:** Visualize the winning squares to understand the game outcome better.
 - **Move Sorting:** Toggle between ascending and descending order for move history.
 
+## Implemented Improvements:
+
+1. **Show Current Move**:<br>
+For the current move, it displays "You are at move #..." instead of a button.
+
+2. **Dynamic Square Creation**:<br>
+The Board component now uses two loops to dynamically create squares, avoiding hardcoding.
+
+3. **Sort Moves Toggle**:<br>
+Added a toggle button to sort moves in either ascending or descending order.
+
+4. **Highlight Winning Squares**:<br>
+Winning squares are now highlighted with a yellow background when someone wins.
+
+5. **Display Draw Result**:<br>
+When the result is a draw, a corresponding message is displayed.
+
 ## Getting Started:
 
 1. **Clone the Repository:**
@@ -36,3 +53,7 @@ Contributions are welcome! Feel free to submit issues, suggest improvements, or 
 
 ## License:
 This project is licensed under the Apache License - see the LICENSE file for details.
+
+
+Feel free to customize it further based on your project's specific details and structure.
+<3
